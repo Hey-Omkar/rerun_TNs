@@ -1,0 +1,374 @@
+qa-latest: Pulling from schalla/duckdefender-v2
+Digest: sha256:c1a934f518b838055e83b08dd1c71a67ec71f4e07443c5c8685819bed8b22d83
+Status: Image is up to date for schalla/duckdefender-v2:qa-latest
+WARNING: The requested image's platform (linux/arm64) does not match the detected host platform (linux/amd64/v3) and no specific platform was requested
+Agent Information:
+Agent Version        : 6.38.0
+{"timestamp": "2026-04-24T04:35:44Z", "message": "This is remoteURL: https://github.com/Hey-Omkar/rerun_TNs", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+
+Repository Information:
+Note:  Try using "git pull" command to scan the latest changes
+Commit ID            : 7dfe48c57bccada3d8b29dd2c9b502089a630d66
+Committer Name       : Omkar
+Commit Message       : new
+
+Branch Name          : main
+Committed On         : 2026-04-24T04:18:02Z
+
+==========================================
+Scans being performed:
+SBOM                 : Enabled
+SCA                  : Enabled
+Secrets              : Enabled
+SAST                 : Disabled
+
+{"timestamp": "2026-04-24T04:35:44Z", "message": "Org Asset Data:  {
+  "provider": "github",
+  "asset_type": "organization",
+  "org_name": "Hey-Omkar",
+  "asset_name": "Hey-Omkar",
+  "orn": "github:Hey-Omkar",
+  "region": "global",
+  "status": "Active",
+  "config": {
+    "name": "Hey-Omkar"
+  },
+  "connectedBy": "",
+  "project_name": "",
+  "integration_type": "cli"
+}", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:44Z", "message": "Repo Asset Data {
+  "provider": "github",
+  "asset_type": "repo",
+  "org_name": "Hey-Omkar",
+  "repo_name": "rerun_TNs",
+  "branch": "main",
+  "asset_name": "rerun_TNs",
+  "orn": "github:Hey-Omkar:rerun_TNs",
+  "region": "global",
+  "status": "Active",
+  "config": {
+    "name": "rerun_TNs"
+  },
+  "connectedBy": "",
+  "project_name": "",
+  "integration_type": "cli",
+  "path": "",
+  "display_path": ""
+}", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:44Z", "message": "Event is being posted too: https://api-qa-in.flyingduck.io/assets/v1/addAsset", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:44Z", "message": "Event posted successfully...!", "scan_id": "", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "Repo asset event details posted successfully...!", "scan_id": "", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "This is the working directory /src", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "Current path is:  /src", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "Pathsets Refreshed:  [] Pathset:  { [] 0}", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "Indexing the repository...!", "scan_id": "", "level": "INFO","thread_name":"null"}
+Before sort: 
+{ProjectPath:/src/CVE-2015-8557 Deps:[/src/CVE-2015-8557/requirements.txt] Depth:1}
+After sort: 
+{ProjectPath:/src/CVE-2015-8557 Deps:[/src/CVE-2015-8557/requirements.txt] Depth:1}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "New element added: {/src [] 0}", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "Directory /src/.github/workflows does not exist
+", "scan_id": "", "level": "DEBUG","thread_name":""}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "Error walking the path /src/.github/workflows: lstat /src/.github/workflows: no such file or directory
+", "scan_id": "", "level": "DEBUG","thread_name":""}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "No .yaml files found in .github/workflows directory.", "scan_id": "", "level": "WARNING","thread_name":""}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "Previous commit endpoint:  https://api-qa-in.flyingduck.io/assets/v1/get-previous-commit?asset_id=1777004471632&branch=main&timestamp=2026-04-24T04%3A18%3A02Z", "scan_id": "", "level": "WARNING","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "no previous scanned commit found...!", "scan_id": "", "level": "WARNING","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "Initial event Details:  {
+  "scan_id": "070927ab8b3847639bbbb44dea1186ec",
+  "commit_id": "7dfe48c57bccada3d8b29dd2c9b502089a630d66",
+  "task_type": "library_scan",
+  "actor": "Omkar",
+  "email": "omkar@flyingduck.io",
+  "timestamp": "2026-04-24T04:35:45Z",
+  "commit_timestamp": "2026-04-24T04:18:02Z",
+  "orn": "github:Hey-Omkar:rerun_TNs",
+  "branch": "main",
+  "ci": "agent",
+  "message": "new\n",
+  "repo_name": "rerun_TNs",
+  "org_name": "Hey-Omkar",
+  "provider": "github",
+  "agent_version": "6.38.0",
+  "scan_start_time": "",
+  "scan_end_time": "",
+  "sbom": true,
+  "sca": true,
+  "secret": true,
+  "asset_id": 1777004471632,
+  "previous_commit_branch_id": null,
+  "previous_scan_id": null
+}", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "Initial event details posted successfully...!", "scan_id": "", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "These are the projects being posted:  [CVE-2015-8557/requirements.txt /]", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "Project event details:  {
+  "scan_id": "070927ab8b3847639bbbb44dea1186ec",
+  "commit_branch_id": "633c5d16-5ef4-4c2f-93ff-77b5c2a5ac82",
+  "asset_id": 1777004471632,
+  "orn": "github:Hey-Omkar:rerun_TNs",
+  "reachability": true,
+  "provider": "github",
+  "commit": "7dfe48c57bccada3d8b29dd2c9b502089a630d66",
+  "branch": "main",
+  "projects": [
+    "CVE-2015-8557",
+    "/"
+  ],
+  "scans": [
+    "sbom",
+    "sca",
+    "secret"
+  ]
+}", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "Event is being posted too: https://api-qa-in.flyingduck.io/listeners/v1/commit-projects", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "Event posted successfully...!", "scan_id": "", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "pathsets before:  [{CVE-2015-8557 [CVE-2015-8557/requirements.txt] 1} {/src [] 0}]", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "deletedPathsets:  []", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "pathsets before sort:  [{CVE-2015-8557 [CVE-2015-8557/requirements.txt] 1} {/src [] 0}]", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "pathsets after sort:  [{CVE-2015-8557 [CVE-2015-8557/requirements.txt] 1} {/src [] 0}]", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "Scanning is pending for 2 projects", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "Project being scanned:  CVE-2015-8557", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "Library scan has started...!", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "Dependency files being processed:  [requirements.txt]", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "These are depmanagers by filenames:  [{Python pypi [requirements.txt] PYPI .py requirements.txt}]", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "This is exclude list:  []", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "Data of project being scanned:  {CVE-2015-8557 [CVE-2015-8557/requirements.txt] 1}", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "PYPI project detected at  CVE-2015-8557/requirements.txt", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "This is remoteURL: https://github.com/Hey-Omkar/rerun_TNs", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "Libraries detected for project:  CVE-2015-8557/requirements.txt are:  1", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{
+	"libraries": {
+		"items": [
+			{
+				"ref_id": "",
+				"indirect": false,
+				"last_scanned_at": "2026-04-24T04:35:45Z",
+				"library_name": "pygments",
+				"operator": "==",
+				"source": "CVE-2015-8557/requirements.txt",
+				"type": "pypi",
+				"version": "2.0.2"
+			}
+		],
+		"meta": {
+			"provider": "github",
+			"message": "new\n",
+			"asset_type": "repo",
+			"owner": "Hey-Omkar",
+			"scan_id": "070927ab8b3847639bbbb44dea1186ec",
+			"repo_name": "rerun_TNs",
+			"orn": "github:Hey-Omkar:rerun_TNs",
+			"commit_url": "",
+			"branch": "main",
+			"commit": "7dfe48c57bccada3d8b29dd2c9b502089a630d66",
+			"commit_branch_id": "",
+			"actor": "Omkar",
+			"email": "omkar@flyingduck.io",
+			"region": "global",
+			"project_name": "",
+			"file": "requirements.txt",
+			"project": "CVE-2015-8557",
+			"commit_timestamp": "2026-04-24T04:18:02Z",
+			"remote_url": "https://github.com/Hey-Omkar/rerun_TNs",
+			"org_name": "Hey-Omkar",
+			"scan_start_time": "2026-04-24T04:35:45Z",
+			"scan_end_time": "2026-04-24T04:35:45Z",
+			"path": ""
+		}
+	},
+	"result": "success",
+	"batch_completed": false,
+	"file_batch_completed": true,
+	"project_batch_completed": true
+}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "1 Library posted successfully...!", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": "Secrets scan has started...!", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:35:45Z", "message": ".fd.config.yml file not found", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "WARNING","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:22Z", "message": "configuration file not found", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+This is the data being posted:  {
+	"result": "success",
+	"secrets": {
+		"items": [],
+		"meta": {
+			"asset_id": 1777004471632,
+			"tenant_id": "647dc784-27b5-4f84-a4dc-1bae91c98a4d",
+			"provider": "github",
+			"message": "new\n",
+			"asset_type": "repo",
+			"owner": "Hey-Omkar",
+			"scan_id": "070927ab8b3847639bbbb44dea1186ec",
+			"repo_name": "rerun_TNs",
+			"orn": "github:Hey-Omkar:rerun_TNs",
+			"commit_url": "",
+			"branch": "main",
+			"commit": "7dfe48c57bccada3d8b29dd2c9b502089a630d66",
+			"commit_branch_id": "633c5d16-5ef4-4c2f-93ff-77b5c2a5ac82",
+			"actor": "Omkar",
+			"email": "omkar@flyingduck.io",
+			"region": "global",
+			"issue_type": "token",
+			"project_name": "",
+			"project": "CVE-2015-8557",
+			"commit_timestamp": "2026-04-24T04:18:02Z",
+			"remote_url": "https://github.com/Hey-Omkar/rerun_TNs",
+			"org_name": "Hey-Omkar",
+			"scan_start_time": "2026-04-24T04:35:45Z",
+			"scan_end_time": "2026-04-24T04:36:22Z",
+			"path": ""
+		}
+	},
+	"batch_completed": false,
+	"project_batch_completed": true
+}
+{"timestamp": "2026-04-24T04:36:22Z", "message": "Number of Secrets detected for project:  CVE-2015-8557 are:  0", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:22Z", "message": "0  secrets posted successfully...!", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:23Z", "message": "Reachibility Analysis Started for project:  CVE-2015-8557/requirements.txt", "scan_id": "", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:23Z", "message": "Project path to generate hierarchies:  /src/CVE-2015-8557", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Query params being passed to commit projects api for project SCA status are:  project CVE-2015-8557  Scan Id:  070927ab8b3847639bbbb44dea1186ec", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Fetching project status...!", "scan_id": "", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "This is the API: https://api-qa-in.flyingduck.io/listeners/v1/commit-projects?project=CVE-2015-8557&scan_id=070927ab8b3847639bbbb44dea1186ec  Response:  {"data":[{"tenant_id":"647dc784-27b5-4f84-a4dc-1bae91c98a4d","scan_id":"070927ab8b3847639bbbb44dea1186ec","commit_branch_id":"633c5d16-5ef4-4c2f-93ff-77b5c2a5ac82","asset_id":1777004471632,"orn":"github:Hey-Omkar:rerun_TNs","provider":"github","commit":"7dfe48c57bccada3d8b29dd2c9b502089a630d66","branch":"main","agent_reachability_scan_status":"pending","created_at":"2026-04-24T04:35:45.158000","updated_at":"2026-04-24T04:35:45.158000","sbom":"completed","sca":"completed","secret":"pending","project":"CVE-2015-8557","id":"099ceca5d4a54371a8943c3ca7ba771b","files":["requirements.txt"]}]}", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "SCA completed for the project:  CVE-2015-8557", "scan_id": "", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Getting vulnerabilities...!", "scan_id": "", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "This is the request URL:  https://api-qa-in.flyingduck.io/assets/v1/commitDetails?_limit=1000&asset_id=1777004471632&commit_branch_id=633c5d16-5ef4-4c2f-93ff-77b5c2a5ac82&issue_type=vulnerability&ne__definition=null&project=CVE-2015-8557&review_status=completed&status=pending%2Cnew", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Got vulnerabilities...!", "scan_id": "", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Vulnerability scan time for: CVE-2015-8557 is: 129.885597ms", "scan_id": "", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "configuration file not found", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "The number of Vulnerabilities found for project are:  1", "scan_id": "", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Combination of rules:  [{[{python {[{pygments.formatters.img.ImageFormatter {{}}} {pygments.formatters.img.GifImageFormatter {{}}} {pygments.formatters.img.JpgImageFormatter {{}}} {pygments.formatters.img.BmpImageFormatter {{}}}] [] []} []}] CVE-2015-8557}]", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+Reachability data being posted to addIssues: 
+[
+	{
+		"id": "64d0790e-a81a-4e9a-8460-91deccdb2e09",
+		"type": "pypi",
+		"commit": "7dfe48c57bccada3d8b29dd2c9b502089a630d66",
+		"asset_id": 1777004471632,
+		"library_name": "pygments",
+		"library_version": "2.0.2",
+		"branch": "main",
+		"tenant_id": "647dc784-27b5-4f84-a4dc-1bae91c98a4d",
+		"source": "CVE-2015-8557/requirements.txt",
+		"severity": "high",
+		"cve_id": "CVE-2015-8557",
+		"issue_type": "vulnerability",
+		"reachability_status": "not_reachable",
+		"reachability_path": [],
+		"project": "CVE-2015-8557"
+	}
+]
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Reachability update is being sent to: https://api-qa-in.flyingduck.io/assets/v2/addIssues", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Reachability analysis is completed....!", "scan_id": "", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "This is library endpoint : https://api-qa-in.flyingduck.io/assets/v2/addIssues response : {"acknowledged":true,"inserted_count":0,"matched_count":1,"modified_count":1,"deleted_count":0,"upserted_ids":{}}", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Reachibility status update event posted successfully...!", "scan_id": "", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "<---------Project scan completed--------->", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Scanning is pending for 1 projects", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Project being scanned:  /", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Library scan has started...!", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Dependency files being processed:  []", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "These are depmanagers by filenames:  []", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "This is exclude list:  [CVE-2015-8557]", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Data of project being scanned:  {/ [] 0}", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "no dependencies found", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "WARNING","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "This is remoteURL: https://github.com/Hey-Omkar/rerun_TNs", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Libraries detected for project:  / are:  0", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{
+	"libraries": {
+		"items": [],
+		"meta": {
+			"provider": "github",
+			"message": "new\n",
+			"asset_type": "repo",
+			"owner": "Hey-Omkar",
+			"scan_id": "070927ab8b3847639bbbb44dea1186ec",
+			"repo_name": "rerun_TNs",
+			"orn": "github:Hey-Omkar:rerun_TNs",
+			"commit_url": "",
+			"branch": "main",
+			"commit": "7dfe48c57bccada3d8b29dd2c9b502089a630d66",
+			"commit_branch_id": "",
+			"actor": "Omkar",
+			"email": "omkar@flyingduck.io",
+			"region": "global",
+			"project_name": "",
+			"project": "/",
+			"commit_timestamp": "2026-04-24T04:18:02Z",
+			"remote_url": "https://github.com/Hey-Omkar/rerun_TNs",
+			"org_name": "Hey-Omkar",
+			"scan_start_time": "2026-04-24T04:36:29Z",
+			"scan_end_time": "2026-04-24T04:36:29Z",
+			"path": ""
+		}
+	},
+	"result": "success",
+	"batch_completed": true,
+	"file_batch_completed": true,
+	"project_batch_completed": true
+}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Directory /src/.github/workflows does not exist
+", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Error walking the path /src/.github/workflows: lstat /src/.github/workflows: no such file or directory
+", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "No .yaml files found in .github/workflows directory.", "scan_id": "", "level": "WARNING","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "0  Libraries posted successfully...!", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "The libraries are being posted to : https://api-qa-in.flyingduck.io/listeners/v1/github/libraries", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Library scan is completed....!", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Total number of libraries detected are:  1", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Unhandled or no Package manager found...!", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "WARNING","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": "Secrets scan has started...!", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:36:29Z", "message": ".fd.config.yml file not found", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "WARNING","thread_name":"null"}
+{"timestamp": "2026-04-24T04:37:28Z", "message": "configuration file not found", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+This is the data being posted:  {
+	"result": "success",
+	"secrets": {
+		"items": [],
+		"meta": {
+			"asset_id": 1777004471632,
+			"tenant_id": "647dc784-27b5-4f84-a4dc-1bae91c98a4d",
+			"provider": "github",
+			"message": "new\n",
+			"asset_type": "repo",
+			"owner": "Hey-Omkar",
+			"scan_id": "070927ab8b3847639bbbb44dea1186ec",
+			"repo_name": "rerun_TNs",
+			"orn": "github:Hey-Omkar:rerun_TNs",
+			"commit_url": "",
+			"branch": "main",
+			"commit": "7dfe48c57bccada3d8b29dd2c9b502089a630d66",
+			"commit_branch_id": "633c5d16-5ef4-4c2f-93ff-77b5c2a5ac82",
+			"actor": "Omkar",
+			"email": "omkar@flyingduck.io",
+			"region": "global",
+			"issue_type": "token",
+			"project_name": "",
+			"project": "/",
+			"commit_timestamp": "2026-04-24T04:18:02Z",
+			"remote_url": "https://github.com/Hey-Omkar/rerun_TNs",
+			"org_name": "Hey-Omkar",
+			"scan_start_time": "2026-04-24T04:36:29Z",
+			"scan_end_time": "2026-04-24T04:37:28Z",
+			"path": ""
+		}
+	},
+	"batch_completed": true,
+	"project_batch_completed": true
+}
+{"timestamp": "2026-04-24T04:37:28Z", "message": "Number of Secrets detected for project:  / are:  0", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:37:28Z", "message": "0  secrets posted successfully...!", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:37:29Z", "message": "The total number of secrets are:  0", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:37:29Z", "message": "The secrets are being posted to : https://api-qa-in.flyingduck.io/listeners/v1/github/secrets", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:37:29Z", "message": "Secrets scan is completed....!", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:37:29Z", "message": "No package manager found to perform vulnerability scan.", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:37:29Z", "message": "<---------Project scan completed--------->", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:37:29Z", "message": "Query params being passed to commit projects api for project SCA status are:  project CVE-2015-8557  Scan Id:  070927ab8b3847639bbbb44dea1186ec", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:37:29Z", "message": "Fetching project status...!", "scan_id": "", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:37:29Z", "message": "This is the API: https://api-qa-in.flyingduck.io/listeners/v1/commit-projects?project=CVE-2015-8557&scan_id=070927ab8b3847639bbbb44dea1186ec  Response:  {"data":[{"tenant_id":"647dc784-27b5-4f84-a4dc-1bae91c98a4d","scan_id":"070927ab8b3847639bbbb44dea1186ec","commit_branch_id":"633c5d16-5ef4-4c2f-93ff-77b5c2a5ac82","asset_id":1777004471632,"orn":"github:Hey-Omkar:rerun_TNs","provider":"github","commit":"7dfe48c57bccada3d8b29dd2c9b502089a630d66","branch":"main","agent_reachability_scan_status":"completed","created_at":"2026-04-24T04:35:45.158000","updated_at":"2026-04-24T04:35:45.158000","sbom":"completed","sca":"completed","secret":"pending","project":"CVE-2015-8557","id":"099ceca5d4a54371a8943c3ca7ba771b","files":["requirements.txt"]}]}", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:37:29Z", "message": "SCA completed for the project:  CVE-2015-8557", "scan_id": "", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:37:29Z", "message": "Query params being passed to commit projects api for project SCA status are:  project /  Scan Id:  070927ab8b3847639bbbb44dea1186ec", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:37:29Z", "message": "Fetching project status...!", "scan_id": "", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:37:29Z", "message": "This is the API: https://api-qa-in.flyingduck.io/listeners/v1/commit-projects?project=%2F&scan_id=070927ab8b3847639bbbb44dea1186ec  Response:  {"data":[{"tenant_id":"647dc784-27b5-4f84-a4dc-1bae91c98a4d","scan_id":"070927ab8b3847639bbbb44dea1186ec","commit_branch_id":"633c5d16-5ef4-4c2f-93ff-77b5c2a5ac82","asset_id":1777004471632,"orn":"github:Hey-Omkar:rerun_TNs","provider":"github","commit":"7dfe48c57bccada3d8b29dd2c9b502089a630d66","branch":"main","agent_reachability_scan_status":"pending","created_at":"2026-04-24T04:35:45.158000","updated_at":"2026-04-24T04:35:45.158000","sbom":"completed","sca":"completed","secret":"pending","project":"/","id":"08316d7c768648aa84bce166a88eadce","files":[]}]}", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:37:29Z", "message": "SCA completed for the project:  /", "scan_id": "", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:37:29Z", "message": "Body being sent to update reachibility status api:  {"agent_reachability_scan_status":"completed","id":"08316d7c768648aa84bce166a88eadce","sbom":"completed","sca":"completed","scan_id":"070927ab8b3847639bbbb44dea1186ec"}", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:37:29Z", "message": "Reachibility status update event posted successfully...!", "scan_id": "", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:37:29Z", "message": "Event is being posted too: https://api-qa-in.flyingduck.io/listeners/v1/tasks", "scan_id": "", "level": "DEBUG","thread_name":"null"}
+{"timestamp": "2026-04-24T04:37:29Z", "message": "Event posted successfully...!", "scan_id": "", "level": "INFO","thread_name":"null"}
+{"timestamp": "2026-04-24T04:37:29Z", "message": "EOE:  false blockDueVulns:  false blockDueSecrets:  false", "scan_id": "070927ab8b3847639bbbb44dea1186ec", "level": "DEBUG","thread_name":"null"}
